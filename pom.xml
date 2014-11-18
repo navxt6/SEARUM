@@ -22,7 +22,7 @@
   <groupId>it.polito.dbdmg.searum</groupId>
   <artifactId>searum</artifactId>
   <version>0.0.1</version>
-  <name>searum</name>
+  <name>SEARUM</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

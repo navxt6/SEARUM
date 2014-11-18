@@ -62,7 +62,6 @@
         <version>0.23.10</version>
     </dependency>
   </dependencies>
-  
   <build>
     <plugins>
     <plugin>
@@ -73,46 +72,7 @@
           <target>1.7</target>
         </configuration>
       </plugin>
-      <!-- <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-shade-plugin</artifactId>
-        <version>2.0</version>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>shade</goal>
-            </goals>
-            <configuration>
-              <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>it.polito.dbdmg.searum.Searum</mainClass>
-                </transformer>
-              </transformers>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>-->
-      <!--<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>jar-bundle</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <descriptorRefs>
-                <descriptorRef>jar-with-dependencies</descriptorRef>
-              </descriptorRefs>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>-->
-      
-                <!-- Maven Assembly Plugin -->
+            <!-- Maven Assembly Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -128,12 +88,11 @@
                         <mainClass>it.polito.dbdmg.searum.Searum</mainClass>
                       </manifest>
                     </archive>
- 
                 </configuration>
                 <executions>
                   <execution>
                     <id>make-assembly</id>
-                                        <!-- bind to the packaging phase -->
+                    <!-- bind to the packaging phase -->
                     <phase>package</phase> 
                     <goals>
                         <goal>single</goal>

@@ -11,7 +11,9 @@ It runs each stage of PFPGrowth as described in the paper http://infolab.stanfor
 
 How to compile and build the jar
 ================================
-mvn compile
+Compile with: mvn compile
 
-mvn package
+Build the jar with: mvn package
 
+How to run
+==========

@@ -33,5 +33,5 @@ Parameters:
   - *output_directory*: output directory that hold intermidiate and final results
   - *discretize*: true if you need a discretization step (you have to implement your own MapReduce job for that), false otherwise
   - *min_sup*: minimum support value for frequent itemset mining
-  - *min_confidence*: minimum confidence value for association rule generation
+  - *min_confidence*: minimum confidence value for association rule generation (optional)
 

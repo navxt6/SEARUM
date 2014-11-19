@@ -16,9 +16,8 @@ Prerequisites
 
 How to compile and build the jar
 ================================
-Compile with: mvn compile
-
-Build the jar with: mvn package
+- Compile: mvn compile
+- Package the jar: mvn package
 
 How to run
 ==========

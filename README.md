@@ -11,7 +11,7 @@ It runs each stage of PFPGrowth as described in the paper http://infolab.stanfor
 
 Prerequisites
 =============
-- Java JDK 1.6
+- Java JDK 1.7
 - Apache Maven
 
 How to compile and build the jar

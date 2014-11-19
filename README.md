@@ -16,10 +16,9 @@ Prerequisites
 
 How to compile and build the jar
 ================================
-
-- Compile
-  `mvn compile`
-- Package the jar: *mvn package*
+- Download the code `git clone `
+- Compile `mvn compile`
+- Package the jar `mvn package`
 
 How to run SEARUM
 =================

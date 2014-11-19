@@ -16,7 +16,7 @@ Prerequisites
 
 How to compile and build the jar
 ================================
-- Download the code `git clone `
+- Download the code `git clone https://github.com/navxt6/SEARUM.git`
 - Compile `mvn compile`
 - Package the jar `mvn package`
 

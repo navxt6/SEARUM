@@ -21,4 +21,5 @@ How to compile and build the jar
 
 How to run
 ==========
+Running SEARUM
 hadoop jar searum-0.0.1-jar-with-dependencies.jar Searum \<input\_file\> \<output\_directory\> \<discretize (true|false)\> \<min_sup (0.0\-1.0)\> [\<min\_confidence (0.0\-1.0)\>]

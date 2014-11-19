@@ -16,21 +16,23 @@ Prerequisites
 
 How to compile and build the jar
 ================================
-- Compile: *mvn compile*
+
+- Compile
+  `mvn compile`
 - Package the jar: *mvn package*
 
-How to run
-==========
+How to run SEARUM
+=================
 Run SEARUM like this:
 
-```java
+````java
 hadoop jar searum-0.0.1-jar-with-dependencies.jar Searum <input_file> <output_directory> <discretize (true|false)> <min_sup (0.0-1.0)> [<min_confidence (0.0-1.0)>]
 ````
 Parameters:
 
-  - *input_file*  input dataset
-  - *output_directory* output directory that hold intermidiate and final results
-  - *discretize* true if you need a discretization step (you have to implement your own MapReduce job for that), false otherwise
-  - *min_sup* minimum support value for frequent itemset mining
-  - *min_confidence* minimum confidence value for association rule generation
+  - *input_file*:  input dataset
+  - *output_directory*: output directory that hold intermidiate and final results
+  - *discretize*: true if you need a discretization step (you have to implement your own MapReduce job for that), false otherwise
+  - *min_sup*: minimum support value for frequent itemset mining
+  - *min_confidence*: minimum confidence value for association rule generation
 

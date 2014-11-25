@@ -30,7 +30,7 @@ hadoop jar searum-0.0.1-jar-with-dependencies.jar Searum <input_file> <output_di
 Parameters:
 
   - *input_file*:  input dataset
-  - *output_directory*: output directory that hold intermidiate and final results
+  - *output_directory*: output directory that hold intermediate and final results
   - *discretize*: true if you need a discretization step (you have to implement your own MapReduce job for that), false otherwise
   - *min_sup*: minimum support value for frequent itemset mining
   - *min_confidence*: minimum confidence value for association rule generation (optional)

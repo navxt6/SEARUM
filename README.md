@@ -42,4 +42,4 @@ In the data folder there is an example dataset already discretized that can be u
 - Create a sub-directory to hold the example dataset: `hadoop fs -mkdir searum_test/data`
 - Upload the example dataset in HDFS: `hadoop fs -put data/example_dataset.dat`
 
-Let's extract all frequent itemset with minimum support of 
+Let's extract all frequent itemsets with minimum support of 

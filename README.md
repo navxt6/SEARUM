@@ -1,7 +1,7 @@
 SEARUM
 ======
 
-MapReduce implementation for association rule mining
+Hadoop MapReduce implementation for Association Rule Mining technique
 
 Description
 ===========

@@ -91,7 +91,7 @@ LOG_BYTES_C=3-4 WINDOW_SCALE_S=2 => WIN_MAX_S=4*4k-8*4K (0.108000, 0.878049, 3.2
 LOG_BYTES_C=3-4 WINDOW_SCALE_S=2 => LOG_PACK_C=1-2      (0.113000, 0.918699, 1.325684)
 `````
 
-Visualize the association rules aggregated by confidence (format (consequence \tab rules \tab (support, confidence, lift))
+Visualize the association rules aggregated by consequence (format (consequence \tab rules \tab (support, confidence, lift))
 ````
 hadoop fs -cat searum_test/output/rules_aggregated/part-r-* | less
 

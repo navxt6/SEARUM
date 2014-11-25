@@ -40,4 +40,6 @@ Example
 In the data folder there is an example dataset already discretized that can be used to test SEARUM
 - Create a directory on HDFS: `hadoop fs -mkdir searum_test`
 - Create a sub-directory to hold the example dataset: `hadoop fs -mkdir searum_test/data`
-- Upload the example dataset in HDFS: `hadoop fs -put example_dataset.dat`
+- Upload the example dataset in HDFS: `hadoop fs -put data/example_dataset.dat`
+
+Let's extract all frequent itemset with minimum support of 

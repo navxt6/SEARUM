@@ -1,7 +1,7 @@
 SEARUM
 ======
 
-Hadoop MapReduce implementation for Association Rule Mining technique
+Hadoop MapReduce implementation for Association Rule Mining technique.
 
 Description
 ===========
@@ -10,6 +10,8 @@ Parallel FP-Growth and Association Rule mining MapReduce implementation.
 It runs each stage of PFPGrowth as described in the paper http://infolab.stanford.edu/~echang/recsys08-69.pdf, modified for and integrated with SEARUM as described in the paper http://www.ict-mplane.eu/sites/default/files/public/publications/386ispa2013grimaudo.pdf.
 
 *Note*: the algorithm generate association rules with only a single item as a consequence
+
+*The research leading to these results has received funding from the European Union under the FP7 Grant Agreement n. 318627 (Integrated Project "mPlane")*
 
 Prerequisites
 =============
